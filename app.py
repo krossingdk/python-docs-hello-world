@@ -15,8 +15,4 @@ def index():
     return 'On the way to automatic scheduling'
 
 
-    
-application = app
 
-if __name__ == "__main__":
-    app.run()
