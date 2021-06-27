@@ -10,6 +10,10 @@ import json
 def hello():
     return "Hello, Kasper Rossing!"
 
+@app.route("/hej")
+def hej():
+    return "Hej"
+
 @app.route('/json', methods=['POST'])
 def json():
     
